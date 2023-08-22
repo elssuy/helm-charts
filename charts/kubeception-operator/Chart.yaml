@@ -1,0 +1,12 @@
+apiVersion: v2
+name: kubeception-operator
+description: Kubeception Operator Helm chart
+type: application
+version: 0.0.1-alpha
+appVersion: "0.0.1-alpha"
+dependencies:
+  - name: cert-manager
+    version: "1.12.3"
+    condition: cert-manager.enabled
+    repository: https://charts.jetstack.io
+
