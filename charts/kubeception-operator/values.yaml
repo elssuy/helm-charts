@@ -9,7 +9,7 @@ controller:
     repository: elssuy/kubeception-operator
     pullPolicy: IfNotPresent
     # Overrides the image tag whose default is the chart appVersion.
-    tag: "0.0.1-alpha"
+    tag: "0.0.2-alpha"
 
   imagePullSecrets: []
 

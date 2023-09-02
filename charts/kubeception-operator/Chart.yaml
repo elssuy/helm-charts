@@ -2,8 +2,8 @@ apiVersion: v2
 name: kubeception-operator
 description: Kubeception Operator Helm chart
 type: application
-version: 0.0.1-alpha
-appVersion: "0.0.1-alpha"
+version: 0.0.2-alpha
+appVersion: "0.0.2-alpha"
 dependencies:
   - name: cert-manager
     version: "1.12.3"
