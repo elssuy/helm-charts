@@ -2,6 +2,21 @@ apiVersion: v1
 entries:
   kubeception-operator:
   - apiVersion: v2
+    appVersion: 0.0.2-alpha
+    created: "2023-09-02T23:48:08.156959723Z"
+    dependencies:
+    - condition: cert-manager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.12.3
+    description: Kubeception Operator Helm chart
+    digest: d29f62229de052059ebecde65a6ba815649ecad9434f540faee2410ae06365d2
+    name: kubeception-operator
+    type: application
+    urls:
+    - https://github.com/elssuy/helm-charts/releases/download/kubeception-operator-0.0.2-alpha/kubeception-operator-0.0.2-alpha.tgz
+    version: 0.0.2-alpha
+  - apiVersion: v2
     appVersion: 0.0.1-alpha
     created: "2023-08-22T12:24:20.096889565Z"
     dependencies:
@@ -16,4 +31,4 @@ entries:
     urls:
     - https://github.com/elssuy/helm-charts/releases/download/kubeception-operator-0.0.1-alpha/kubeception-operator-0.0.1-alpha.tgz
     version: 0.0.1-alpha
-generated: "2023-08-22T12:24:20.096904266Z"
+generated: "2023-09-02T23:48:08.157025324Z"
